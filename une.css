@@ -1,0 +1,82 @@
+body{
+  font-family: 'Philosopher', sans-serif;
+  background-color: white;
+  }
+/*.............. HEADER ............*/
+.header{
+  margin-left: 13em;
+  background-color: #00204E;
+  height: 8em;
+  margin-bottom: 2em;
+  display: flex;
+  color: white;
+  margin-right: 0;
+}
+.logo{
+  height: 8em;
+  width: 10%;
+}
+.chti{
+  height: 8em;
+  width: 80%;
+}
+.logoChti{
+  height: 8em;
+  width: 10%;
+  margin-left: 100px;
+}
+/* ............MENUS...............*/
+
+.MENU{
+  display: inline;
+  position: fixed;
+  justify-content: center;
+}
+
+.onglet{
+  border-bottom: black solid 1px;
+  border-top: black solid 1px;
+  width: 60%;
+  text-align: center;
+  background-color: #00204E;
+  color: white;
+}
+.onglet:hover{
+    background-color: white;
+    color: #00204E;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color:#00204E;
+}
+/* ........... Article de UNE .............*/
+.articleUne{
+  width: 50%;
+  margin-left: 13em;
+}
+
+.autreArticle{
+  width: 30%;
+  position: absolute;
+  top: 210px;
+  right: 0px;
+}
+.justify{
+  text-align: justify;
+  font-size: 20px;
+}
+.centre{
+  text-align: center;
+}
+/*............. FOOTER...............*/
+.footer{
+  margin-top: 2em;
+  margin-left: 13em;
+  height: 5em;
+  background-color: #00204E;
+  text-align: center;
+  color: white;
+}
